@@ -1,5 +1,5 @@
 {
-  "name": "@techieoriname/xpresser-bcrypt",
+  "name": "@techie_oriname/xpresser-bcrypt",
   "version": "0.1.0",
   "description": "Bcrypt helper using bcrypt",
   "main": "index.js",
