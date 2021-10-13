@@ -12,7 +12,7 @@ export function run(plugin: any, $: DollarSign) {
 
 
         if (!config.has('salt')) {
-            return $.logErrorAndExit(`saltRounds is required in config: "${packageName}"`)
+            return $.logErrorAndExit(`salt is required in config: "${packageName}"`)
         }
 
         require('./index')

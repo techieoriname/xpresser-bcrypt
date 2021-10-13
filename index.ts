@@ -6,7 +6,7 @@ const $ = getInstance()
 // Get config
 const config = $.config.path('bcrypt');
 
-const saltRounds = config.get("saltRounds")
+const saltRounds = config.get("salt")
 
 //sync style
 export const hash = ($password: string | Buffer): Error | null | string => {
