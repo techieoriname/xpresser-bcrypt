@@ -4,7 +4,7 @@ import {getInstance} from "xpresser";
 const $ = getInstance()
 
 // Get config
-const config = $.config.path('bcrypt');
+const config = $.config.path('@xpresser/bcrypt');
 
 const saltRounds = config.get("salt")
 
