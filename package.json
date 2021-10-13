@@ -1,6 +1,6 @@
 {
   "name": "@techie_oriname/xpresser-bcrypt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bcrypt helper using bcrypt",
   "main": "index.js",
   "types": "index.d.ts",
