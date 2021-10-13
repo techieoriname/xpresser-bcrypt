@@ -1,6 +1,6 @@
 {
-  "name": "@xpresser/jwt",
-  "version": "0.0.1",
+  "name": "@techieoriname/xpresser-bcrypt",
+  "version": "0.0.2",
   "description": "Bcrypt helper using bcrypt",
   "main": "index.js",
   "types": "index.d.ts",
@@ -12,8 +12,7 @@
   },
   "private": false,
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "xpresser": "^0.22.3"
+    "bcrypt": "^5.0.1"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0"
