@@ -1,0 +1,4 @@
+{
+  "namespace": "bcrypt",
+  "use_index": "./plugin-index.js"
+}
