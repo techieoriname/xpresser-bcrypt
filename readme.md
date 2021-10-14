@@ -48,7 +48,6 @@ In your controller or anywhere in your project.
 
 ```javascript
 const { compare, hash } = require("@techie_oriname/xpresser-bcrypt");
-const {signJwt, verifyJwt} = require("@xpresser/jwt");
 
 const password = "password"
 
