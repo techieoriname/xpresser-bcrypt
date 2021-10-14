@@ -1,6 +1,6 @@
 import {DollarSign} from "xpresser/types";
 
-const packageName = '@xpresser/bcrypt';
+const packageName = 'bcrypt';
 
 export function run(plugin: any, $: DollarSign) {
     $.ifNotConsole(() => {

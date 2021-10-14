@@ -34,7 +34,7 @@ yarn add @techie_oriname/xpresser-bcrypt
 ```javascript
 ({
   // ... Other Configs
-    "@xpresser/bcrypt": {
+    "bcrypt": {
         salt: 10,
     },
   
