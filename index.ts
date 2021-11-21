@@ -4,9 +4,7 @@ import {getInstance} from "xpresser";
 const $ = getInstance()
 
 // Get config
-const config = $.config.path('bcrypt');
-
-const saltRounds = config.get("salt")
+const saltRounds = $.config.get('bcrypt.salt');
 
 //sync style
 export const hash = ($password: string | Buffer): Error | null | string => {
