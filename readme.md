@@ -13,10 +13,10 @@ This plugin makes use of [bcrypt](https://www.npmjs.com/package/bcrypt).
 ### Installation
 
 ```sh
-npm i @techie_oriname/xpresser-bcrypt
+npm i @techie04/xpresser-bcrypt
 
 # OR
-yarn add @techie_oriname/xpresser-bcrypt
+yarn add @techie04/xpresser-bcrypt
 
 ```
 
@@ -25,7 +25,7 @@ yarn add @techie_oriname/xpresser-bcrypt
 
 ```json
 {
-  "npm://@techie_oriname/xpresser-bcrypt": true
+  "npm://@techie04/xpresser-bcrypt": true
 }
 ```
 
@@ -47,7 +47,7 @@ yarn add @techie_oriname/xpresser-bcrypt
 In your controller or anywhere in your project.
 
 ```javascript
-const { compare, hash } = require("@techie_oriname/xpresser-bcrypt");
+const { compare, hash } = require("@techie04/xpresser-bcrypt");
 
 const password = "password"
 
@@ -61,7 +61,7 @@ compare(password, hashed) // return true
 
 ### Typescript support
 ```typescript
-import { compare, hash } from "@techie_oriname/xpresser-bcrypt";
+import { compare, hash } from "@techie04/xpresser-bcrypt";
 
 const password: string = "password"
 
